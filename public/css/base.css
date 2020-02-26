@@ -1,0 +1,47 @@
+/* tag style */
+body {
+  margin: 5px;
+  padding: 5px;
+  font-family: serif;
+}
+button {
+  width: 150px;
+  height: 30px;
+  border-width: 1px;
+  border-color: #4477DD;
+  background-color: #3366CC;
+  color: #EEEEEE;
+}
+button:hover {
+  background-color: #1144AA;
+  color: #FFFFFF;
+}
+button:disabled {
+  background-color: #555555;
+  color: #333333;
+}
+div {
+  padding: 10px 0px;
+}
+input {
+  width: 150px;
+  height: 30px;
+  font-size: 10pt;
+  text-align: center;
+  border-width: 0px 0px 1px 0px;
+  border-color: #000000;
+}
+/* class style */
+.box {
+  margin: 5px;
+  padding: 5px;
+  background-color: #EEEEEE;
+}
+.room {
+  margin: 5px;
+}
+.videoplayer {
+  width: 300px;
+  background-color: #555555;
+}
+/* id style */
